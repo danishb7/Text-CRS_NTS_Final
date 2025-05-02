@@ -91,13 +91,13 @@ python textatk_attack.py -model_type cnn -dataset amazon -atk textfooler -num_ex
 ### Attack Test Metrics and Results
 The following tables show the evaluation results for the AGNews dataset tested on LSTM and BERT models under 5 different types of attacks.
 
-Test results for LSTM on the Agnews dataset for the synonym substitution attack
+#### Test results for LSTM on the Agnews dataset for the synonym substitution attack
 ![LSTM Metrics](snips/lstm_test.png)
 
-Test results for BERT on the Agnews dataset for the synonym substitution attack
+#### Test results for BERT on the Agnews dataset for the synonym substitution attack
 ![BERT Metrics](snips/Bert_test.png)
 
-Output Comparison with the Original TextCRS framework
+#### Output Comparison with the Original TextCRS framework
 ![Output Comparison](snips/image_opcompare.jpg)
 
 #### Certify 
